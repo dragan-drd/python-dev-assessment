@@ -46,7 +46,7 @@ def count_character_frequency(text):
     for key in char_dict:
         for i in range(len(text)):
             if key == text[i]:
-                char_dict[key] = char_dict[key] + 1
+                char_dict[key] += 1
     return char_dict
 
 
